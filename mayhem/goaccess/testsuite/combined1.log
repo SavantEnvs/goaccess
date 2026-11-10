@@ -1,0 +1,3 @@
+127.0.0.1 - - [10/Oct/2020:13:55:36 +0000] "GET /index.html HTTP/1.1" 200 2326 "http://example.com/start" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0 Safari/537.36"
+192.168.1.20 - bob [11/Oct/2020:08:01:02 +0200] "POST /api/v1/items?id=7 HTTP/2.0" 404 512 "-" "curl/7.68.0"
+2001:db8::1 - - [12/Oct/2020:23:59:59 -0500] "GET /img/logo.png HTTP/1.0" 304 0 "https://search.example.org/?q=goaccess" "Googlebot/2.1 (+http://www.google.com/bot.html)"

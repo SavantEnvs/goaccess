@@ -1,0 +1,8 @@
+project: savantenvs/goaccess
+target: bin2c
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/bin2c/testsuite
+cmds:
+  - cmd: /mayhem/bin2c @@ /dev/null a
+    afl: true

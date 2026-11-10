@@ -1,0 +1,3 @@
+build-*/
+lsan_off.o
+stdin_null.o

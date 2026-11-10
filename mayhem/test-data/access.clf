@@ -1,0 +1,6 @@
+203.0.113.5 - - [10/Oct/2020:13:55:36 +0000] "GET /index.html HTTP/1.1" 200 1000 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0 Safari/537.36"
+203.0.113.5 - - [10/Oct/2020:13:55:40 +0000] "GET /about.html HTTP/1.1" 200 500 "http://example.com/index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0 Safari/537.36"
+198.51.100.7 - - [10/Oct/2020:14:02:11 +0000] "GET /index.html HTTP/1.1" 304 0 "-" "curl/7.68.0"
+198.51.100.7 - - [11/Oct/2020:09:00:00 +0000] "POST /api/items HTTP/1.1" 404 250 "-" "curl/7.68.0"
+192.0.2.9 - - [11/Oct/2020:09:30:00 +0000] "GET /index.html HTTP/1.1" 200 2000 "-" "Wget/1.20.3 (linux-gnu)"
+not a valid log line

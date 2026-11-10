@@ -1,0 +1,8 @@
+project: savantenvs/goaccess
+target: fuzz_parse_line
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_parse_line/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_parse_line
+    libfuzzer: true

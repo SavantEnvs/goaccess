@@ -1,0 +1,8 @@
+project: savantenvs/goaccess
+target: goaccess
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/goaccess/testsuite
+cmds:
+  - cmd: /mayhem/goaccess --log-format=COMBINED --no-global-config --no-parsing-spinner -a -o json -f @@
+    afl: true
